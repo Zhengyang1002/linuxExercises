@@ -5,4 +5,4 @@ for number in {1000..2000}; do
     sum=$((sum + number))
   fi
 done
-echo "$sum"
+echo $sum
